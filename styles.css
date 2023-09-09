@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  background-color: #6fb3f8;
+}
+.slack-profile {
+  border: 2px solid hsl(196, 55%, 42%);
+  padding: 46px;
+}
+.slack-profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.slack-profile__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
